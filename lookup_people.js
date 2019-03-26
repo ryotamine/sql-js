@@ -12,7 +12,7 @@ const client = new pg.Client({
   ssl      : settings.ssl
 });
 
-/* Get famous people input from user */
+// Get famous people input from user
 const name = process.argv[2];
 
 // Get famous people function
